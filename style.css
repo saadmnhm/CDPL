@@ -1,0 +1,769 @@
+h1, h2, h3, h4, h5, h6, p{
+    font-family: "Montserrat", sans-serif;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white !important;
+}
+.header-general {
+    position: relative;
+    height: 421px;
+    overflow: hidden; /* Ensures background doesn’t affect layout */
+    background-image: url(image/header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+
+
+
+.header-general .text-left{
+    right: 10px;
+    width: 180px;
+    height: 72px;
+    position: relative;
+    top: 23Px;
+    z-index: 3;
+}
+.header-general::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust the opacity as needed */
+    z-index: 1;
+}
+.header-general  .top-bar-left{
+    width: 100%;
+    height: auto;
+}
+.header-general  .top-bar-left img{
+    width: 100%;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li a {
+    color: white; /* Sets the text color to white */
+    text-decoration: none; /* Optional: Removes the underline from the link */
+}
+.header-general .top-bar-right{
+    position: relative;
+    top: 47Px;
+    left: 48px;
+    z-index: 2;
+}
+
+.header-general  .top-bar-right li{
+    display: inline-block;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 21.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-right: 42px;  
+}
+.header-general .top-bar-right li:hover{
+    transform: scale(1.05);
+}
+.header-general  .first-title{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 31.69px;
+    letter-spacing: 0.14em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;;
+    
+}
+.header-general  .second-title{
+    font-family: Montserrat;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 43.88px;
+    letter-spacing: 0.14em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+
+.banner-content{
+    margin: 68px 0px 0px -6px;
+}    
+.search-container{
+    width: 790px;
+    position: relative;
+    height: 124px;
+    top: -90px;
+    border-radius: 15px;
+    background-color: white;
+    left: 289px;
+    color: black;
+    z-index: 2;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+
+}
+.search-container .text {
+    width: 215px;
+    position: relative;
+    height: 47px;
+    top: 22px;
+    left: 11px;
+}
+.search-container ul {
+    padding-left: 1rem;
+}
+
+.search-container .first-text{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.search-container li{
+    line-height: 45px;
+}
+.search-container .litle-text{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #AFAFAF;
+}
+.search-container .litle-text:hover{
+    transform: scale(1.05);
+}
+.rectangle_ {
+    width: 2px !important;
+    padding: 0px !important;
+    display: block;
+    height: 13vh;
+    background-color: #cdcdcd;
+    margin-top: 18px !important;
+}
+
+.input-data{
+  height: 25px;
+  width: 100%;
+  position: relative;
+}
+.input-data input{
+  height: 100%;
+  width: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid silver;
+}
+.input-data input:focus ~ label,
+.input-data input:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 15px;
+  color: #4158d0;
+}
+
+.input-data .underline{
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  bottom: 0;
+}
+.input-data .underline:before{
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before{
+  transform: scaleX(1);
+}
+.search-container .logo{
+    width: 115px;
+    position: relative;
+    top: 23px;
+    right: 6Px;
+}
+.search-container .logo:hover {
+  
+    transform: scale(1.05); /* Slightly scale up the element on hover */
+}
+.search-container .litle-text img{
+    width: 21px;
+    margin-left: 13px;
+
+}
+.Nos-Editions .title{
+    color: #000;
+
+}
+.Nos-Editions .title p{
+    font-family: Montserrat;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 41.45px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+#flex-container-editions {
+    /* margin: 0; */
+    padding: 0;
+    width: 100%;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+
+.flex-box-editions {
+    width: 245px!important;
+    color: rgb(92, 38, 38);
+    font-size: 15px;
+    border-radius: 10px;
+    height: 254px;
+    overflow: hidden; /* Ensures the image doesn't overflow the border radius */
+}
+#flex-box-editions-1{
+    background-image: url(image/Group\ 19.png);
+}
+#flex-box-editions-2{
+    background-image: url(image/Group\ 19\ \(1\).png);
+}
+#flex-box-editions-3{
+    background-image: url(image/Group\ 19\ \(2\).png);
+}
+#flex-box-editions-4{
+    background-image: url(image/Group\ 19\ 4.png);
+}
+.flex-box-editions .text{
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.82px;
+    position: relative;
+    top: 25px;
+    right: 15px;
+    color: white;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+        
+}
+.flex-box-editions .text:hover {
+
+    transform: scale(1.05); 
+}
+.flex-box-editions:hover {
+
+    transform: scale(1.05); 
+}
+#flex-box-editions-4 a img{
+    margin: -1px -22px 20px 0;
+}
+.Éditions-partenaires{
+    margin-top: 100px;
+}
+.Éditions-partenaires .text{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.69px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+    
+}
+#flex-container-partenaires {
+    /* margin: 0; */
+    padding: 0;
+    width: 100%;
+    gap: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.flex-box-partenaires {
+    width: 232px !important;
+    color: black;
+    font-size: 15px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: -105px ;
+    margin: 20px 10px 0 0;
+    height: 401px;
+    border: 1px solid #D1D1D1;
+}
+.flex-box-partenaires:hover{
+    transform: scale(1.05);
+}
+.flex-box-partenaires .image{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.flex-box-partenaires .image img{
+    border-radius: 10px;
+}
+.flex-box-partenaires .élement-text{
+    background-color: white;
+    position: relative;
+    right: 12px;
+    width: 112%;
+    margin-top: 5px;
+    display: flex;
+    height: 160px;
+    border-radius: 0 0 12px 12px;
+    display: grid;
+}
+
+.flex-box-partenaires .élement-text .title{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+    height: 35px;
+    line-height: 18.29px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+        
+}
+.flex-box-partenaires .élement-text .text{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 0px;
+    position: relative;
+    line-height: 12.19px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #7D7D7D;
+}
+.flex-box-partenaires .élement-text .button-detail button{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    left: 14px;
+    line-height: 14.63px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8372C0;
+    border: 1px solid;
+    height: 42px;
+    width: 204px;
+        
+}
+.flex-box-partenaires .élement-text .button-detail button:hover{
+    transform: scale(1.05); 
+}
+
+
+
+
+.coéditions-CDPL{
+    margin-top: 100px;
+}
+.coéditions-CDPL .text{
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 31.69px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000;
+    
+}
+#flex-container-coéditions-CDPL{
+    /* margin: 0; */
+    padding: 0;
+    width: 100%;
+    margin-top: 30px;
+    gap: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.flex-box-coéditions-CDPL:hover{
+    transform: scale(1.05);
+}
+.flex-box-coéditions-CDPL{
+    width: 232px !important;
+    color: black;
+    font-size: 15px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: -105px ;
+    margin: 20px 10px 0 0;
+    height: 401px;
+    border: 1px solid #D1D1D1;
+}
+.flex-box-coéditions-CDPL .image{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+.flex-box-coéditions-CDPL .image img{
+    border-radius: 10px;
+}
+.flex-box-coéditions-CDPL .élement-text{
+    background-color: white;
+    position: relative;
+    right: 12px;
+    width: 112%;
+    margin-top: 5px;
+    display: flex;
+    height: 160px;
+    border-radius: 0 0 12px 12px;
+    display: grid;
+}
+
+.flex-box-coéditions-CDPL .élement-text .title{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 15px;
+    height: 35px;
+    line-height: 18.29px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+        
+}
+.flex-box-coéditions-CDPL .élement-text .text{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 0px;
+    position: relative;
+    line-height: 12.19px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #7D7D7D;
+}
+.flex-box-coéditions-CDPL .élement-text .button-detail button{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    position: relative;
+    left: 14px;
+    line-height: 14.63px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8372C0;
+    border: 1px solid;
+    height: 42px;
+    width: 204px;
+        
+}
+.flex-box-coéditions-CDPL .élement-text .button-detail button:hover{
+    transform: scale(1.05); 
+}
+
+
+
+.footer{
+    height: 770px;
+    background-color: #30264C;
+    margin-top: 250px;
+}
+.footer .first-party .text{
+    font-family: Montserrat;
+    text-align: justify;
+    width: 200px;
+    font-size: 13px;
+    padding: 40px 0 20px 0;
+    font-weight: 300;
+    line-height: 20.85px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.first-party{
+    top: 45px;
+    width: 280PX !important;
+    position: relative;
+    left: 60px;
+}
+.second-party{
+    width: 280px !important;
+    position: relative;
+    top: 65Px;
+    left: 60Px;
+
+}
+.second-party .title p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.second-party .text{
+    top: 25Px;
+    display: grid;
+    width: 170PX;
+    font-family: Inter;
+    font-size: 16px;
+    position: relative;
+    font-weight: 300;
+    line-height: 23px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.second-party .text a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Optional: Removes the underline from links */
+    display: inline-block;
+    padding-left: 15px; /* Adds space between the bullet and the text */
+    position: relative;
+}
+
+.second-party .text a::before {
+    content: "•"; /* Unicode for bullet point */
+    color: white; /* Bullet color */
+    position: absolute;
+    left: 0; /* Position the bullet on the left */
+}
+.third-party{
+    width: 280px !important;
+    position: relative;
+    top: 65Px;
+    left: 30Px;
+}
+.third-party .title p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.third-party .text{
+    display: grid;
+    position: relative;
+    top: 25Px;
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 18.65px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.third-party .text a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Optional: Removes the underline from links */
+    display: inline-block;
+    padding-left: 15px; /* Adds space between the bullet and the text */
+    position: relative;
+}
+
+.third-party .text a::before {
+    content: "•"; /* Unicode for bullet point */
+    color: white; /* Bullet color */
+    position: absolute;
+    left: 0; /* Position the bullet on the left */
+}
+.third-party .text span a p{
+    font-family: Montserrat;
+font-size: 15px;
+font-weight: 500;
+line-height: 25.65px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+} 
+.third-party .text span a::before {
+    content: ""; /* Unicode for bullet point */
+    color: white; /* Bullet color */
+    position: absolute;
+    left: 0; /* Position the bullet on the left */
+}
+.party-fourd .title p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.party-fourd{
+    width: 198px !important;
+    position: relative;
+    top: 65Px;
+    left: 30Px;
+}
+.party-fourd .text a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Optional: Removes the underline from links */
+    display: inline-block;
+    padding-left: 15px; /* Adds space between the bullet and the text */
+    position: relative;
+}
+
+.party-fourd .text a::before {
+    content: "•"; /* Unicode for bullet point */
+    color: white; /* Bullet color */
+    position: absolute;
+    left: 0; /* Position the bullet on the left */
+}
+.party-fourd .text{
+    font-family: Inter;
+    position: relative;
+    top: 25Px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.party-five .title p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.party-five{
+    width: 198px !important;
+    position: relative;
+    top: 65Px;
+    left: 30Px;
+}
+.party-five .text a {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Optional: Removes the underline from links */
+    display: inline-block;
+    padding-left: 15px; /* Adds space between the bullet and the text */
+    position: relative;
+}
+
+.party-five .text a::before {
+    content: ""; /* Unicode for bullet point */
+    color: white; /* Bullet color */
+    position: absolute;
+    left: 0; /* Position the bullet on the left */
+}
+.party-five .button p{
+
+    top: -9px;
+    position: relative;
+    left: 30px;
+}
+.party-five .button img{
+    position: relative;
+    top: 5Px;
+}
+.party-five .button{
+    position: relative;
+    top: 25px;
+}
+.party-five .text{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+.party-five .button button{
+    border: 1px solid #E8CFAA;
+    color: white;
+    width: 189px;
+    height: 44px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 14.52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.slid{
+    position: relative;
+    top: -42px;
+    right: 60px;
+}
+.slid img{
+    float: right;
+    
+}
+
+.footer-promax{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17.07px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    position: relative;
+    top: 64px;
+    height: 60px;
+    text-align: center;
+    background-color: #423763;
+    
+}
+.footer-promax{
+padding: 23px 0 0 0;
+}
+
+

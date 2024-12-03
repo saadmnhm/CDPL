@@ -1,0 +1,75 @@
+
+@media only screen and (max-width: 991px){
+    .top-head{
+        display: none;
+    }
+    .header {
+        display: block !important;
+      }
+    .search-container{
+        display: none;
+    }
+    .banner-content {
+        margin: 160px 0px 0px -6px;
+    }
+    .carousel .card {
+        width: 295Px !important;
+        height: 450px !important;
+        margin-top: 20px !important;
+    }
+    .wrapper{
+        margin-left:60px!important;
+    }
+    .wrapper-mobile{
+        margin-top: -150px !important;
+        margin-left: 25px !important;
+    }
+    .actualités .right-text {
+        width: 270px;
+        margin-top: 20px !important;
+        margin-left: -12Px !important;
+    }
+    .actualités .title{
+        width: 240px;
+        margin-left: 2px;
+    }
+    #text-title-up{
+        margin-left: 70px;
+        width: 275px;
+    }
+    .first-party{
+        margin-left: 40Px;
+        margin-top: 30px !important;
+    }
+    .second-party{
+        margin-left: 16Px;
+        margin-top: 30px !important;
+    }
+    .third-party{
+        margin-left: 40Px;
+        margin-top: 30px !important;
+    }
+    .party-fourd{
+        margin-left: 40Px;
+        margin-top: 30px !important;
+    }
+    .party-five{
+        margin-left: 40Px;
+        margin-top: 30px !important;
+    }
+    .footer-promax{
+
+        margin-top: 40px !important;
+    }
+    .footer {
+        height: 1820px;
+        background-color: #30264C;
+        margin-top: 400px;
+    }
+    
+
+
+
+
+
+}
